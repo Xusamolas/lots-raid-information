@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 10px 0 0 0;
+
+    + * {
+        margin-top: 0;
+    }
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+h2 {
+    margin-top: 16px;
+}
+
+h3 {
+    margin-top: 12px;
+}
+
+header {
+    margin-top: 25px;
+    padding: 0 10px;
+    width: 225px;
+    float: left;
+    position: fixed;
+
+    ul {
+        list-style: none;
+        padding: 0 0 0 15px;
+        margin: 0;
+    }
+    > ul {
+        padding-left: 0;
+    }
+}
+
+section {
+    float: right;
+    padding: 0 10px 25px 10px;
+
+    ul {
+        margin-top: 0;
+        margin-bottom: 4px;
+    }
+
+    p + ul {
+        margin-top: -10px;
+    }
+
+    dd {
+        margin-left: 20px;
+        > ul {
+            margin-left: -20px;
+        }
+    }
+}
+
+footer {
+    padding: 0 10px;
+    width: 225px;
+    float: left;
+    position: fixed;
+    bottom: 10px;
+
+    p {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+
+.warning {
+    padding: 5px;
+}
+
+
+// Responsive design
+
+.wrapper {
+    margin: 0 auto;
+    width: 1000px;
+    @media screen and (max-width: $media-xl-max-width) {
+        width: 700px;
+    }
+    @media screen and (max-width: $media-l-max-width) {
+        width: $media-m-max-width;
+    }
+    @media screen and (max-width: $media-m-max-width) {
+        width: 100%;
+    }
+}
+
+section {
+    width: 1000px;
+    @media screen and (max-width: $media-xl-max-width) {
+        width: 700px;
+    }
+    @media screen and (max-width: $media-l-max-width) {
+        width: $media-m-max-width - 250px;
+    }
+    @media screen and (max-width: $media-m-max-width) {
+        //float: none;
+        width: auto;
+        margin-left: 190px;
+    }
+}
+
+header, footer {
+    margin-left: -250px;
+    @media screen and (max-width: $media-l-max-width) {
+        margin-left: 0px;
+    }
+    @media screen and (max-width: $media-m-max-width) {
+        width: 170px;
+    }
+}

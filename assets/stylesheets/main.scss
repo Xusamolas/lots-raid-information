@@ -1,0 +1,31 @@
+---
+sitemap:
+    exclude: "yes"
+---
+
+@charset "utf-8";
+
+$media-xl-max-width: 1500px;
+$media-l-max-width: 1200px;
+$media-m-max-width: 992px;
+$media-s-max-width: 768px;
+$media-xs-max-width: 480px;
+
+$font-family: "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-size: 14px;
+$font-line-height: 1.5;
+$font-weight: 400;
+
+$background-color: #eee;
+$text-color: #222;
+$link-color: #39c;
+$link-color-hover: #036;
+
+$warning-background-color: #e9d98f;
+$warning-text-color: #625207;
+
+@import
+    "base",
+    "layout",
+    "syntax-highlighting"
+;

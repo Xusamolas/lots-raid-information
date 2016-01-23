@@ -1,0 +1,59 @@
+---
+layout: default
+navigation:
+    visible: false
+---
+{% include urls.md %}
+
+# Vale Guardian: Builds &ndash; Chronomancer Tank
+{% include templates/build_unfinished.html %}
+
+**Note:** The tank can be any profession, as long as the following conditions are met:
+
+- High survivability or many evasion skills
+- 1400+ toughness (Warriors can get 400 extra toughness from a trait)
+
+However, if the tank is a **Chronomancer**, the tank and the [utility Chronomancer][site-spirit-vale-vale-guardian-builds-utility-chronomancer] are merged and the utility Chronomancer on its own is unneeded.
+This allows us to have room for one more other profession.
+
+## General information
+The tank's job is to kite to Vale Guardian around the arena.
+The tank has to be careful with the Vale Guardian's attacks and needs to keep it facing away from the rest of the players as much as possible.
+You can see the direction the Vale Guardian is facing by its marker on the ground.
+Its attacks can be negated by dodging, blocking, evading or becoming invulnerable.
+
+During the split phases, the tank goes to the **Blue Guardian**.
+As a Chronomancer with a sword, the tank has to boonstrip the Blue Guardian for it to become vulnerable to attacks.
+
+When rotating around the arena, make sure to position the Vale Guardian near the edge of the next sector (but not to close!), somewhere near the middle of the separation line.
+
+## Build
+The tank should get between 1400 and 1500 toughness by any stat type (e.g. Knight's).
+The rest should be filled in with either Assassin's or Berserker's gear.
+
+- Armor with ideally Superior Runes of the Chronomancer
+- Sword/sword and shield with ideally Sigils of Force and Sigils of Concentration
+- Inspiration 3-2-1, Illusions 2-2-2, Chronomancer 3-3-3
+- Well of Eternity, Signet of Inspiration, Well of Recall, Well of Action, Timewarp
+
+## Consumables
+Food:
+
+- Bowl of Nopalitos Saute
+- Loaf of Candy Cactus Cornbread
+- Chocolate Omnomberry Cream
+- Spring Roll
+- Or equivalents
+
+Utility:
+
+- Bountiful Sharpening Stone
+- Superior Sharpening Stone
+- Tin of Fruitcake
+- Master Maintenance Oil
+- Peppermint Oil
+- Or equivalents
+
+## Change history
+23 January, 2016 *(Archomeda)*:
+: - Initial draft

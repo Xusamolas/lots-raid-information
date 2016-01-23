@@ -1,0 +1,42 @@
+{% assign current_url = page.url | remove_first: '/' %}
+{% assign pages = site.pages | sort: 'weight' %}
+
+<ul>
+  {% assign menu_depth = 1 %}
+  {% for page in pages %}
+    {% if page.navigation.visible %}
+      {% assign page_url = page.url | remove_first: '/' %}
+      {% assign page_url_parts = page_url | split: '/' %}
+      {% assign page_url_parts_size = page_url_parts | size %}
+
+      {% if page_url_parts_size < 1 %}
+        {% assign page_url_parts_size = 1 %}
+      {% endif %}
+
+      {% if menu_depth < page_url_parts_size %}
+        {% for i in (menu_depth..page_url_parts_size) %}
+          {% if i != page_url_parts_size %}
+            <ul>
+          {% endif %}
+        {% endfor %}
+      {% elsif menu_depth > page_url_parts_size %}
+        {% for i in (page_url_parts_size..menu_depth) %}
+          {% if i != menu_depth %}
+            </ul>
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+      {% assign menu_depth = page_url_parts_size %}
+
+      <li><a href="{{ page.url | prepend: site.baseurl }}"{% if current_url == page_url %} class="active"{% endif %}>{{ page.navigation.title }}</a>
+    {% endif %}
+  {% endfor %}
+
+  {% if menu_depth > 1 %}
+    {% for i in (1..menu_depth) %}
+      {% if i != menu_depth %}
+        </ul>
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+</ul>

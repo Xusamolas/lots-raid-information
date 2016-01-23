@@ -1,0 +1,71 @@
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans:400,400italic,700italic,700);
+
+body {
+    background-color: $background-color;
+    font: #{$font-size}/#{$font-line-height} $font-family;
+    color: $text-color;
+    font-weight: $font-weight;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+h2 {
+    font-size: 20px;
+    color: #393939;
+}
+
+h3 {
+    font-size: 16px;
+    color: #494949;
+}
+
+h4 {
+    font-size: 14px;
+    color: #595959;
+}
+
+h5 {
+    font-size: 14px;
+    color: #696969;
+}
+
+h6 {
+    font-size: 14px;
+    color: #797979;
+}
+
+a {
+    color: $link-color;
+    text-decoration: none;
+}
+
+a:hover, a.active {
+    color: $link-color-hover;
+}
+
+.icon {
+    > svg {
+        display: inline-block;
+        vertical-align: middle;
+        path {
+            fill: $text-color;
+
+            a & {
+                fill: $link-color;
+            }
+            a:hover & {
+                fill: $link-color-hover;
+            }
+        }
+    }
+}
+
+
+.warning {
+    background: $warning-background-color;
+    color: $warning-text-color;
+    text-align: center;
+    border-radius: 5px;
+}

@@ -23,8 +23,12 @@ Just make sure to not go above the toughness level of the tank.
 - Armor with ideally Superior Runes of the Scholar or Superior Runes of the Druid
 - Sword/axe and staff with ideally Sigils of Force and Sigils of Water
 - Tiger and Bristleback
-- Marksmanship 3-2-1, Skirmishing 2-1-1, Druid 2-2-1
 - Glyph of Rejuvenation, Frost Spirit, Glyph of Empowerment, Glyph of Alignment, Glyph of Unity
+
+### Traits
+{% include templates/builds/specialization.html name="Marksmanship" major1="3" major2="2" major3="1" %}
+{% include templates/builds/specialization.html name="Skirmishing" major1="2" major2="1" major3="1" %}
+{% include templates/builds/specialization.html name="Druid" major1="2" major2="2" major3="1" %}
 
 ## Consumables
 Food:

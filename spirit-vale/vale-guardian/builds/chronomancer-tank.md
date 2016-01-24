@@ -33,8 +33,12 @@ The rest should be filled in with either Assassin's or Berserker's gear.
 
 - Armor with ideally Superior Runes of the Chronomancer
 - Sword/sword and shield with ideally Sigils of Force and Sigils of Concentration
-- Inspiration 3-2-1, Illusions 2-2-2, Chronomancer 3-3-3
 - Well of Eternity, Signet of Inspiration, Well of Recall, Well of Action, Timewarp
+
+### Traits
+{% include templates/builds/specialization.html name="Inspiration" major1="3" major2="2" major3="1" %}
+{% include templates/builds/specialization.html name="Illusions" major1="2" major2="2" major3="2" %}
+{% include templates/builds/specialization.html name="Chronomancer" major1="3" major2="3" major3="3" %}
 
 ## Consumables
 Food:

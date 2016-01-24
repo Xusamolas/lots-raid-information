@@ -17,8 +17,12 @@ As a Chronomancer with a sword, the Chronomancer has to boonstrip the Blue Guard
 ## Build
 - Assassin's or Berserker's armor with ideally Superior Runes of the Chronomancer
 - Assassin's or Berserker's sword/sword and shield with ideally Sigils of Force and Sigils of Concentration
-- Domination 2-2-2, Illusions 1-2-2, Chronomancer 3-3-3
 - Well of Eternity, Signet of Inspiration, Well of Recall, Well of Action, Timewarp
+
+### Traits
+{% include templates/builds/specialization.html name="Domination" major1="2" major2="2" major3="2" %}
+{% include templates/builds/specialization.html name="Illusions" major1="1" major2="2" major3="2" %}
+{% include templates/builds/specialization.html name="Chronomancer" major1="3" major2="3" major3="3" %}
 
 ## Consumables
 Food:

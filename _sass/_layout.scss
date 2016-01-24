@@ -1,3 +1,5 @@
+@import "math";
+
 body {
     margin: 0;
     padding: 0;
@@ -75,8 +77,128 @@ footer {
 }
 
 
+// Content stuff
+
 .warning {
     padding: 5px;
+}
+
+.specialization {
+    width: 647px;
+    height: 136px;
+    overflow: hidden;
+    background-position: bottom left;
+    position: relative;
+
+    * {
+        display: inline-block;
+        position: relative;
+        vertical-align: middle;
+        z-index: 1;
+    }
+
+    &:hover .hover-overlay {
+        opacity: 0;
+    }
+    .hover-overlay {
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        opacity: 0.45;
+        background: black;
+        z-index: 0;
+        transition: opacity 0.5s;
+    }
+
+    .name {
+        margin: 0 10px;
+        width: 180px;
+        color: white;
+        font-size: $font-size + 2px;
+        text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    }
+
+    .trait-icon {
+        overflow: none;
+        &.trait-icon-minor {
+            background-size: 46px;
+            background-position: -4px -2px;
+            width: 38px;
+            height: 42px;
+            // Not supported in IE, sadly...
+            -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+            clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+        }
+        &.trait-icon-major {
+            background-size: 42px;
+            background-position: -2px -2px;
+            width: 38px;
+            height: 38px;
+        }
+        &.trait-icon-background {
+            background: black;
+        }
+    }
+
+    .trait-set-major {
+        margin: 7px 0;
+        > .trait-icon {
+            display: block;
+            position: relative;
+            &:not(:last-child) {
+                margin-bottom: 4px;
+            }
+        }
+        .trait-icon-major {
+            opacity: 0.4;
+            &.active {
+                opacity: 1;
+            }
+        }
+    }
+
+    .line {
+        width: 34px;
+        border-width: 0px;
+        border-style: solid;
+        border-color: white;
+        &.line-midup {
+            border-top-width: 3px;
+            width: ceil(34px / cos(30deg));
+            margin: 0 -3px (34px * tan(30deg) * 2) -3px;
+            -moz-transform: rotate(-30deg);
+            -webkit-transform: rotate(-30deg);
+            transform: rotate(-30deg);
+        }
+        &.line-upmid {
+            border-top-width: 3px;
+            width: ceil(34px / cos(30deg));
+            margin: 0 -3px (34px * tan(30deg) * 2) -3px;
+            -moz-transform: rotate(30deg);
+            -webkit-transform: rotate(30deg);
+            transform: rotate(30deg);
+        }
+        &.line-midmid {
+            border-bottom-width: 3px;
+        }
+        &.line-middown {
+            border-bottom-width: 3px;
+            width: ceil(34px / cos(30deg));
+            margin: (34px * tan(30deg) * 2) -3px 0 -3px;
+            -moz-transform: rotate(30deg);
+            -webkit-transform: rotate(30deg);
+            transform: rotate(30deg);
+        }
+        &.line-downmid {
+            border-bottom-width: 3px;
+            width: ceil(34px / cos(30deg));
+            margin: (34px * tan(30deg) * 2) -3px 0 -3px;
+            -moz-transform: rotate(-30deg);
+            -webkit-transform: rotate(-30deg);
+            transform: rotate(-30deg);
+        }
+    }
 }
 
 
@@ -105,7 +227,6 @@ section {
         width: $media-m-max-width - 250px;
     }
     @media screen and (max-width: $media-m-max-width) {
-        //float: none;
         width: auto;
         margin-left: 190px;
     }

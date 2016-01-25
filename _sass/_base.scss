@@ -63,9 +63,56 @@ a:hover, a.active {
 }
 
 
+// Content
+
 .warning {
     background: $warning-background-color;
     color: $warning-text-color;
     text-align: center;
     border-radius: 5px;
+}
+
+.builds-list {
+    border-width: 1px;
+    border-style: solid;
+
+    .title {
+        font-weight: bold;
+    }
+
+    &.builds-list-tank {
+        background: linear-gradient(to bottom right, #ede6e1, $background-color 50%);
+        border-image: linear-gradient(to bottom right, #995105, $background-color 50%) 1;
+        .title {
+            color: #995105;
+        }
+    }
+    &.builds-list-healer {
+        background: linear-gradient(to bottom right, #e1ebed, $background-color 50%);
+        border-image: linear-gradient(to bottom right, #046980, $background-color 50%) 1;
+        .title {
+            color: #046980;
+        }
+    }
+    &.builds-list-power {
+        background: linear-gradient(to bottom right, #ede1e1, $background-color 50%);
+        border-image: linear-gradient(to bottom right, #990505, $background-color 50%) 1;
+        .title {
+            color: #990505;
+        }
+    }
+    &.builds-list-conditions {
+        background: linear-gradient(to bottom right, #e3ede1, $background-color 50%);
+        border-image: linear-gradient(to bottom right, #298004, $background-color 50%) 1;
+        .title {
+            color: #298004;
+        }
+    }
+    &.builds-list-other {
+        background: linear-gradient(to bottom right, #e9e1ed, $background-color 50%);
+        border-image: linear-gradient(to bottom right, #6a0599, $background-color 50%) 1;
+        .title {
+            color: #6a0599;
+        }
+    }
 }

@@ -1,0 +1,29 @@
+{% assign current_url = page.url %}
+{% assign pages = site.pages | sort: 'build_weight' %}
+{% assign current_build_type = "" %}
+
+{% for page in pages %}
+  {% if page.url contains current_url %}
+    {% if page.build.visible %}
+      {% if current_build_type != page.build.type %}
+        {% if current_build_type != "" %}
+</ul></div>
+        {% endif %}
+<div class="builds-list builds-list-{{ page.build.type | slugify }}">
+  <div class="title">{{ page.build.type }}</div>
+  <ul class="builds">
+        {% assign current_build_type = page.build.type %}
+      {% endif %}
+    <li>
+      <a href="{{ page.url | prepend: site.baseurl }}">
+        {% include templates/profession-icon.html profession=page.build.profession %}
+        {{ page.build.name }}
+      </a>
+    </li>
+    {% endif %}
+  {% endif %}
+{% endfor %}
+
+{% if current_build_type != "" %}
+</ul></div>
+{% endif %}

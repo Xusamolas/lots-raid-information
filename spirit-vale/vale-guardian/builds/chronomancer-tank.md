@@ -2,21 +2,19 @@
 layout: default
 navigation:
     visible: false
+
+build_weight: "001.chronomancer-tank"
+build:
+    visible: true
+    name: Chronomancer Tank
+    type: Tank
+    profession: Chronomancer
 ---
 {% include urls.md %}
 
 # Vale Guardian: Builds &ndash; Chronomancer Tank
-{% include templates/build_unfinished.html %}
+{% include templates/messages/build_unfinished.html %}
 
-**Note:** The tank can be any profession, as long as the following conditions are met:
-
-- High survivability or many evasion skills
-- 1400+ toughness (Warriors can get 400 extra toughness from a trait)
-
-However, if the tank is a **Chronomancer**, the tank and the [utility Chronomancer][site-spirit-vale-vale-guardian-builds-utility-chronomancer] are merged and the utility Chronomancer on its own is unneeded.
-This allows us to have room for one more other profession.
-
-## General information
 The tank's job is to kite to Vale Guardian around the arena.
 The tank has to be careful with the Vale Guardian's attacks and needs to keep it facing away from the rest of the players as much as possible.
 You can see the direction the Vale Guardian is facing by its marker on the ground.

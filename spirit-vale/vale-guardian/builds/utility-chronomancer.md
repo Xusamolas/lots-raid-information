@@ -2,11 +2,18 @@
 layout: default
 navigation:
     visible: false
+
+build_weight: "005.chronomancer-utility"
+build:
+    visible: true
+    name: Utility Chronomancer
+    type: Other
+    profession: Chronomancer
 ---
 {% include urls.md %}
 
 # Vale Guardian: Builds &ndash; Utility Chronomancer
-{% include templates/build_unfinished.html %}
+{% include templates/messages/build_unfinished.html %}
 
 The Chonomancer's job is to provide as much alacrity and quickness as possible.
 If executed correctly, this will increase the DPS output significantly.

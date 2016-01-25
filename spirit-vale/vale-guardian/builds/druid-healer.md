@@ -2,11 +2,18 @@
 layout: default
 navigation:
     visible: false
+
+build_weight: "002.druid-healer"
+build:
+    visible: true
+    name: Druid Healer
+    type: Healer
+    profession: Druid
 ---
 {% include urls.md %}
 
 # Vale Guardian: Builds &ndash; Druid Healer
-{% include templates/build_unfinished.html %}
+{% include templates/messages/build_unfinished.html %}
 
 The healer's job sounds very easy: keep everyone alive as much as possible.
 Keep an eye on the HP of other players and heal accordingly.

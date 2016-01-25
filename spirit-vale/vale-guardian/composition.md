@@ -4,8 +4,11 @@ navigation:
     visible: true
     title: Composition
 weight: "001.001.003"
+
+raid_encounter_name: Vale Guardian
+raid_encounter_page_name: Composition
+raid_encounter_page_weight: 3
 ---
-{% include urls.md %}
 
 # Vale Guardian: Composition
 There are many compositions that are viable for fighting against the Vale Guardian.
@@ -15,7 +18,7 @@ We generally have the following base setup:
 Sorry, but this is currently done in raw HTML and templates.
 Still have to figure out how this can be done nicer.
 {:/comment}
-{% include templates/composition/builds-list-start.html type="Tank" %}
+{% include templates/composition/list-builds-start.html type="Tank" %}
 <ul class="builds">
     <li>
         {% include templates/profession-icon.html profession="Chronomancer" %}
@@ -23,8 +26,8 @@ Still have to figure out how this can be done nicer.
         &times;1
     </li>
 </ul>
-{% include templates/composition/builds-list-end.html %}
-{% include templates/composition/builds-list-start.html type="Healer" %}
+{% include templates/composition/list-builds-end.html %}
+{% include templates/composition/list-builds-start.html type="Healer" %}
 <ul class="builds">
     <li>
         {% include templates/profession-icon.html profession="Druid" %}
@@ -32,8 +35,8 @@ Still have to figure out how this can be done nicer.
         &times;1
     </li>
 </ul>
-{% include templates/composition/builds-list-end.html %}
-{% include templates/composition/builds-list-start.html type="Power" %}
+{% include templates/composition/list-builds-end.html %}
+{% include templates/composition/list-builds-start.html type="Power" %}
 <ul class="builds">
     <li>
         {% include templates/profession-icon.html profession="Berserker" %}
@@ -50,8 +53,8 @@ Still have to figure out how this can be done nicer.
         &times;1
     </li>
 </ul>
-{% include templates/composition/builds-list-end.html %}
-{% include templates/composition/builds-list-start.html type="Conditions" %}
+{% include templates/composition/list-builds-end.html %}
+{% include templates/composition/list-builds-start.html type="Conditions" %}
 <ul class="builds">
     <li>
         {% include templates/profession-icon.html profession="Berserker" %}
@@ -65,7 +68,7 @@ Still have to figure out how this can be done nicer.
     </li>
 </ul>
 * The number of Condition DPS Berserkers and Engineers are mutually exclusive.
-{% include templates/composition/builds-list-end.html %}
+{% include templates/composition/list-builds-end.html %}
 
 This can and probably will be tweaked during the raid.
 So don't be afraid if numbers are a bit off.
@@ -81,8 +84,8 @@ Generally, we want to have:
 - The Chronomancer should *not* be in the same party as most of the ranged players
 
 ## Change history
-23 January, 2016 *(Archomeda)*:
+23 January 2016 *(Archomeda)*:
 : - Moved away from Dulfy's setup to what we've been running for a couple of weeks
 
-18 December, 2015 *(Archomeda)*:
+18 December 2015 *(Archomeda)*:
 : - Initial draft

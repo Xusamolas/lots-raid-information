@@ -79,7 +79,7 @@ footer {
 
 // Content stuff
 
-.warning {
+.message {
     padding: 5px;
     > p {
         margin: 0;
@@ -167,8 +167,8 @@ footer {
     .trait-icon {
         overflow: none;
         &.trait-icon-minor {
-            background-size: 46px;
-            background-position: -4px -2px;
+            background-size: 44px;
+            background-position: -3px -1px;
             width: 38px;
             height: 42px;
             // Not supported in IE, sadly...

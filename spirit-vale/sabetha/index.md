@@ -4,10 +4,13 @@ navigation:
     visible: true
     title: Sabetha
 weight: "001.003"
+
+raid_wing_name: Spirit Vale
+raid_wing_encounter_name: Sabetha the Saboteur
+raid_wing_encounter_weight: 3
 ---
-{% include urls.md %}
 
 # Sabetha
-Sabetha the Saboteur is the third and last encounter in the [Spirit Vale][site-spirit-vale].
+Sabetha the Saboteur is the third and last encounter in the [Spirit Vale](../).
 
 No detailed information available at the moment.

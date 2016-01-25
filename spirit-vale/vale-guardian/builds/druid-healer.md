@@ -13,7 +13,7 @@ build:
 {% include urls.md %}
 
 # Vale Guardian: Builds &ndash; Druid Healer
-{% include templates/messages/build_unfinished.html %}
+{% include templates/messages/build-unfinished.html %}
 
 The healer's job sounds very easy: keep everyone alive as much as possible.
 Keep an eye on the HP of other players and heal accordingly.
@@ -51,11 +51,11 @@ Utility:
 - Or equivalents
 
 ## Change history
-23 January, 2016 *(Archomeda)*:
+23 January 2016 *(Archomeda)*:
 : - Added pets
 - Changed gear set and clarified that Berserker's gear is viable
 - Changed traits to be more offensive
 - Changed utilities to mostly glyphs
 
-18 December, 2015 *(Archomeda)*:
+18 December 2015 *(Archomeda)*:
 : - Initial draft

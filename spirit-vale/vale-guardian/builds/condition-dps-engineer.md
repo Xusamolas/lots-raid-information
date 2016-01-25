@@ -13,7 +13,7 @@ build:
 {% include urls.md %}
 
 # Vale Guardian: Builds &ndash; Condition DPS Engineer
-{% include templates/messages/build_unfinished.html %}
+{% include templates/messages/build-unfinished.html %}
 
 The Engineer is mostly ranged and will go for the **green circles**.
 If the rotation is too complicated, focus on dealing as much burning as possible, and don't forget about vulnerability stacks.
@@ -56,5 +56,5 @@ Utility:
 - Or equivalents
 
 ## Change history
-18 December, 2015 *(Archomeda)*:
+18 December 2015 *(Archomeda)*:
 : - Initial draft

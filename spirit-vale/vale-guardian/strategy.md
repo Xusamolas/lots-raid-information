@@ -4,8 +4,11 @@ navigation:
     visible: true
     title: Strategy
 weight: "001.001.002"
+
+raid_encounter_name: Vale Guardian
+raid_encounter_page_name: Strategy
+raid_encounter_page_weight: 2
 ---
-{% include urls.md %}
 
 # Vale Guardian: Strategy
 Since we want to help everyone getting their Vale Guardian kill, we have listed our strategy here for easy reading.
@@ -169,7 +172,7 @@ If everything has been executed successfully, the Vale Guardian should now be de
 Congratulations!
 
 ## Change history
-23 January, 2016 *(Archomeda)*:
+23 January 2016 *(Archomeda)*:
 : - Initial draft
 
 [gw2w-orbital-strike]: https://wiki.guildwars2.com/wiki/Orbital_Strike "Guild Wars 2 Wiki &ndash; Orbital Strike"

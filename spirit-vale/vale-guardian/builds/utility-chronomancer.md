@@ -13,7 +13,7 @@ build:
 {% include urls.md %}
 
 # Vale Guardian: Builds &ndash; Utility Chronomancer
-{% include templates/messages/build_unfinished.html %}
+{% include templates/messages/build-unfinished.html %}
 
 The Chonomancer's job is to provide as much alacrity and quickness as possible.
 If executed correctly, this will increase the DPS output significantly.
@@ -50,9 +50,9 @@ Utility:
 - Or equivalents
 
 ## Change history
-23 January, 2016 *(Archomeda)*:
+23 January 2016 *(Archomeda)*:
 : - Changed Sigil of Air to Sigil of Concentration
 - Changed food to provide increased boon duration
 
-18 December, 2015 *(Archomeda)*:
+18 December 2015 *(Archomeda)*:
 : - Initial draft

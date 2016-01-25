@@ -13,6 +13,6 @@ build:
 {% include urls.md %}
 
 # Vale Guardian: Builds &ndash; Power DPS Tempest
-{% include templates/messages/build_unfinished.html %}
+{% include templates/messages/build-unfinished.html %}
 
 Build description is not available at the moment.

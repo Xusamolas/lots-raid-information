@@ -4,6 +4,10 @@ navigation:
     visible: true
     title: Builds
 weight: "001.001.004"
+
+raid_encounter_name: Vale Guardian
+raid_encounter_page_name: Builds
+raid_encounter_page_weight: 4
 ---
 {% include urls.md %}
 
@@ -17,19 +21,17 @@ For all builds, we require you to have:
 
 Don't forget to check our [general composition][site-spirit-vale-vale-guardian-composition]!
 
-{% include templates/builds/available-builds.html %}
+{% include templates/builds/list-builds.html %}
 
 If you've thought of a build that's working well, but one that's not listed here, let us know!
 
 ## Change history
-25 January, 2016 *(Archomeda)*:
+25 January 2016 *(Archomeda)*:
 : - Updated Power DPS Berserker and Power DPS Herald
 
-23 January, 2016 *(Archomeda)*:
+23 January 2016 *(Archomeda)*:
 : - Added Chronomancer tank
 - Updated Druid Healer and Utility Chronomancer
 
-18 December, 2015 *(Archomeda)*:
+18 December 2015 *(Archomeda)*:
 : - Initial draft
-
-[google-doc]: https://docs.google.com/document/d/1azn5e4GdGAFZr3qcB3zp4sY1_lA6_aE5sX91uCCahIw/edit#heading=h.fhrkqhrh35jm "Google Documents &ndash; Raids information"

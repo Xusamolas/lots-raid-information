@@ -13,7 +13,7 @@ build:
 {% include urls.md %}
 
 # Vale Guardian: Builds &ndash; Power DPS Herald
-{% include templates/messages/build_unfinished.html %}
+{% include templates/messages/build-unfinished.html %}
 
 The Herald will always be in melee range of the Vale Guardian and will share various boons while being in the Legendary Dragon Stance.
 While being in this stance, you use various facets to share might and fury, and try to extend the boon duration by using Facet of Nature.
@@ -49,9 +49,9 @@ Utility:
 - Tin of Fruitcake
 
 ## Change history
-25 January, 2016 *(Archomeda)*:
+25 January 2016 *(Archomeda)*:
 : - Added Plate of Truffle Steak as food
 - Removed the Superior Rune of Strength as Heralds and Berserkers give enough might (the extra might duration is wasted anyway)
 
-18 December, 2015 *(Archomeda)*:
+18 December 2015 *(Archomeda)*:
 : - Initial draft

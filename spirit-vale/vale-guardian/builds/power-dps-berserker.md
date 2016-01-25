@@ -13,7 +13,7 @@ build:
 {% include urls.md %}
 
 # Vale Guardian: Builds &ndash; Power DPS Berserker
-{% include templates/messages/build_unfinished.html %}
+{% include templates/messages/build-unfinished.html %}
 
 The Berserker will always be in melee range of the Vale Guardian and will share might stacks upon critting with the greatsword.
 You build up your adrenaline, go berserk and use your F1 skill in order to increase your DPS even more.
@@ -47,8 +47,8 @@ Utility:
 - Or equivalents
 
 ## Change history
-25 January, 2016 *(Archomeda)*:
+25 January 2016 *(Archomeda)*:
 : - Removed the Superior Rune of Strength as Heralds and Berserkers give enough might (the extra might duration is wasted anyway)
 
-18 December, 2015 *(Archomeda)*:
+18 December 2015 *(Archomeda)*:
 : - Initial draft

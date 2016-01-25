@@ -1,0 +1,2 @@
+{% capture head %}{{ page.raid.wing_name }} features the following encounters:{% endcapture %}
+{% include templates/list-pages.html filter_name="raid_wing_name" filter_value=page.raid.wing_name sort_name="raid_wing_encounter_weight" title_name="raid_wing_encounter_name" head=head %}

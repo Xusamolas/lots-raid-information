@@ -4,8 +4,11 @@ navigation:
     visible: true
     title: Nomenclature
 weight: "001.001.001"
+
+raid_encounter_name: Vale Guardian
+raid_encounter_page_name: Nomenclature
+raid_encounter_page_weight: 1
 ---
-{% include urls.md %}
 
 # Vale Guardian: Nomenclature
 In order to avoid confusion, we use the following terms in the Vale Guardian fight:
@@ -62,9 +65,9 @@ These blue circles will teleport players when hit at the end of the charge.
 They deal significant damage to players that are close.
 
 ## Change history
-23 January, 2016 *(Archomeda)*:
+23 January 2016 *(Archomeda)*:
 : - Added arena and barrier
 - Added fact about people requirements for the green circles
 
-18 December, 2015 *(Archomeda)*:
+18 December 2015 *(Archomeda)*:
 : - Initial draft

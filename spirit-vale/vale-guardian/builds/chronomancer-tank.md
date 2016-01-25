@@ -13,7 +13,7 @@ build:
 {% include urls.md %}
 
 # Vale Guardian: Builds &ndash; Chronomancer Tank
-{% include templates/messages/build_unfinished.html %}
+{% include templates/messages/build-unfinished.html %}
 
 The tank's job is to kite to Vale Guardian around the arena.
 The tank has to be careful with the Vale Guardian's attacks and needs to keep it facing away from the rest of the players as much as possible.
@@ -57,5 +57,5 @@ Utility:
 - Or equivalents
 
 ## Change history
-23 January, 2016 *(Archomeda)*:
+23 January 2016 *(Archomeda)*:
 : - Initial draft

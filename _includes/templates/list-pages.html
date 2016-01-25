@@ -1,0 +1,10 @@
+{% assign pages = (site.pages | where: include.filter_name, include.filter_value | sort: include.sort_name) %}
+
+{% if pages.size > 0 %}
+  <p>{{ include.head | markdownify }}</p>
+  <ul>
+    {% for page in pages %}
+      <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page[include.title_name] }}</a></li>
+    {% endfor %}
+  </ul>
+{% endif %}

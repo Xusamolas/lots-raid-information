@@ -14,6 +14,9 @@ raid_encounter_page_weight: 2
 Since we want to help everyone getting their Vale Guardian kill, we have listed our strategy here for easy reading.
 The strategy is explained chronologically.
 
+You can watch and follow our first kill along with this strategy. It might be slightly different, but with this video you can see the Vale Guardian visually besides only reading text.
+{% include templates/youtube-embed.html id="8DxXOF4ORbM" %}
+
 ## Before starting
 We will group up at the **red pillar**, except for the tank.
 The tank will fetch the Vale Guardian *without* attacking him (just luring).
@@ -175,6 +178,9 @@ If everything has been executed successfully, the Vale Guardian should now be de
 Congratulations!
 
 ## Change history
+26 January 2016 *(Archomeda)*:
+: - Added video
+
 23 January 2016 *(Archomeda)*:
 : - Initial draft
 

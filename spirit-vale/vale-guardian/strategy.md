@@ -21,9 +21,12 @@ The other people who are standing near the red pillar, have to *avoid getting hi
 This also includes blue circles that spawn immediately after the Vale Guardian starts following the tank.
 When the Vale Guardian is also standing at the red pillar, everyone can start fighting.
 
+{% capture message_edge_arena %}
 **Be careful when near the edge of the arena!**
 The barrier will activate a few seconds after the timer has started.
 If you end up outside the arena, you will be killed and we will have to restart.
+{% endcapture %}
+{% include templates/messages/error.html message=message_edge_arena %}
 
 ## Phase 1
 This phase is the easiest.

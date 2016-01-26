@@ -45,6 +45,14 @@ a:hover, a.active {
     color: $link-color-hover;
 }
 
+header {
+    .logo {
+        background: $logo-url;
+    }
+}
+
+// Content
+
 .icon {
     > svg {
         display: inline-block;
@@ -62,25 +70,15 @@ a:hover, a.active {
     }
 }
 
-
-// Content
-
 .message {
-    //text-align: center;
-    //border-radius: 5px;
-    border-left-style: solid;
-    border-left-width: 3px;
     &.message-info {
-        border-left-color: $info-text-color;
         color: $info-text-color;
-        //background: $info-background-color;
-        //color: $info-text-color;
     }
     &.message-warning {
-        border-left-color: $warning-text-color;
         color: $warning-text-color;
-        //background: $warning-background-color;
-        //color: $warning-text-color;
+    }
+    &.message-error {
+        color: $error-text-color;
     }
 }
 

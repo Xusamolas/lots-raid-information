@@ -16,18 +16,22 @@ $font-size: 14px;
 $font-line-height: 1.5;
 $font-weight: 400;
 
+$logo-url: url({{ site.baseurl }}/assets/images/lots-emblem.svg);
 $background-color: #eee;
 $text-color: #222;
 $link-color: #39c;
 $link-color-hover: #036;
 
-$info-background-color: #6cda74;
 $info-text-color: #088711;
-$warning-background-color: #e9d98f;
 $warning-text-color: #975d01;
+$error-text-color: #970101;
+
+// Octicons settings
+$octicons-font-path: "{{ site.baseurl }}/assets/fonts";
 
 @import
     "base",
     "layout",
+    "octicons",
     "syntax-highlighting"
 ;

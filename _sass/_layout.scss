@@ -3,6 +3,7 @@
 body {
     margin: 0;
     padding: 0;
+    min-width: 600px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -31,6 +32,13 @@ header {
     width: 225px;
     float: left;
     position: fixed;
+
+    .logo {
+        display: block;
+        width: 150px;
+        height: 150px;
+        margin: 0 auto;
+    }
 
     ul {
         list-style: none;
@@ -80,8 +88,14 @@ footer {
 // Content stuff
 
 .message {
-    padding: 5px;
-    > p {
+    > span {
+        display: table-cell;
+        vertical-align: middle;
+        &:not(:first-child) {
+            padding-left: 7px;
+        }
+    }
+    p {
         margin: 0;
     }
 }
@@ -251,9 +265,9 @@ footer {
 
 .wrapper {
     margin: 0 auto;
-    width: 1000px;
+    width: 970px;
     @media screen and (max-width: $media-xl-max-width) {
-        width: 700px;
+        width: 670px;
     }
     @media screen and (max-width: $media-l-max-width) {
         width: $media-m-max-width;
@@ -264,9 +278,9 @@ footer {
 }
 
 section {
-    width: 1000px;
+    width: 970px;
     @media screen and (max-width: $media-xl-max-width) {
-        width: 700px;
+        width: 670px;
     }
     @media screen and (max-width: $media-l-max-width) {
         width: $media-m-max-width - 250px;
@@ -278,7 +292,7 @@ section {
 }
 
 header, footer {
-    margin-left: -250px;
+    margin-left: -265px;
     @media screen and (max-width: $media-l-max-width) {
         margin-left: 0px;
     }

@@ -24,10 +24,18 @@ Only during CC phases (and split phases in order to kill the colored guardian), 
 During the split phases, the Berserkers split up and go to the **Green Guardian** and the **Blue Guardian**.
 
 ## Build
-- Berserker's armor with ideally Superior Runes of Scholar
-- Berserker's greatsword and mace/mace with ideally Sigils of Force and Sigils of Air
-- Berserker's trinkets
-- Blood Reckoning, Signet of Fury, Banner of Discipline, Banner of Strength, Battle Standard
+The Berserker uses Berserker's gear.
+
+### Armor
+Ideally all the armor pieces have Superior Runes of the Scholar.
+
+### Weapons
+{% include templates/builds/weapon-skills.html profession="Warrior" mainhand="Greatsword" %}
+{% include templates/builds/weapon-skills.html profession="Warrior" mainhand="Mace" offhand="Mace" %}
+Ideally these weapons have Sigils of Force and Sigils of Air.
+
+### Utilities
+{% include templates/builds/utility-skills.html healing="Blood Reckoning" utility1="Signet of Fury" utility2="Banner of Discipline" utility3="Banner of Strength" elite="Battle Standard" %}
 
 ### Traits
 {% include templates/builds/specialization.html name="Strength" major1="2" major2="2" major3="1" %}

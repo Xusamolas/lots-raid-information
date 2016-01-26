@@ -27,13 +27,19 @@ This is very important on the green circles.
 During the split phase, the Engineer goes to the **Red Guardian**.
 
 ## Build
-- Viper's armor with ideally Superior Runes of the Berserker
-- Viper's pistol/pistol with ideally Sigils of Malice and Sigils of Bursting
-- Viper's trinkets
-- Berserker's backpiece
-- Healing Turret, Bomb Kit, Grenade Kit, Flamethrower, Elite Mortar Kit
+The Engineer uses Viper gear.
+If Viper's is not available, use Sinister.
+If Sinister is not available on a trinket, use Berserker's.
 
-**Note:** If Viper's is not available, use Sinister's.
+### Armor
+Ideally all the armor pieces have Superior Runes of the Berserker.
+
+### Weapons
+{% include templates/builds/weapon-skills.html profession="Engineer" mainhand="Pistol" offhand="Pistol" %}
+Ideally these weapons have Sigils of Malice and Sigils of Bursting.
+
+### Utilities
+{% include templates/builds/utility-skills.html healing="Healing Turret" utility1="Bomb Kit" utility2="Grenade Kit" utility3="Flamethrower" elite="Elite Mortar Kit" %}
 
 ### Traits
 {% include templates/builds/specialization.html name="Explosives" major1="3" major2="2" major3="2" %}

@@ -26,11 +26,18 @@ The healer can use both Zealot's gear or Berserker's gear, or a mix.
 It depends if you're willing to spend the gold and time required for Zealot's gear or not, but Berserker's should suffice.
 If you feel that the healing is lacking a bit, you can try to mix in some Healing Power from other stat types.
 Just make sure to not go above the toughness level of the tank.
+Your pets are the Tiger and the Bristleback.
 
-- Armor with ideally Superior Runes of the Scholar or Superior Runes of the Druid
-- Sword/axe and staff with ideally Sigils of Force and Sigils of Water
-- Tiger and Bristleback
-- Glyph of Rejuvenation, Frost Spirit, Glyph of Empowerment, Glyph of Alignment, Glyph of Unity
+### Armor
+Ideally all the armor pieces have Superior Runes of the Scholar or Superior Runes of the Druid.
+
+### Weapons
+{% include templates/builds/weapon-skills.html profession="Ranger" mainhand="Sword" offhand="Axe" %}
+{% include templates/builds/weapon-skills.html profession="Ranger" mainhand="Staff" %}
+Ideally these weapons have Sigils of Force and Sigils of Water.
+
+### Utilities
+{% include templates/builds/utility-skills.html healing="Glyph of Rejuvenation" utility1="Frost Spirit" utility2="Glyph of Empowerment" utility3="Glyph of Alignment" elite="Glyph of Unity" %}
 
 ### Traits
 {% include templates/builds/specialization.html name="Marksmanship" major1="3" major2="2" major3="1" %}

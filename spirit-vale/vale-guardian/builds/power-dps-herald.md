@@ -24,11 +24,18 @@ Your axe skill #5 can also CC if needed.
 
 During the split phases, the Heralds split up and go to the **Green Guardian** and the **Blue Guardian**.
 
-### Build
-- Berserker's armor with ideally Superior Runes of Scholar
-- Berserker's sword/axe and staff with ideally Sigils of Force and Sigils of Air
-- Berserker's trinkets
-- Legendary Dragon Stance and Legendary Demon Stance
+## Build
+The Herald uses Berserker's gear.
+
+### Weapons
+{% include templates/builds/weapon-skills.html profession="Revenant" mainhand="Sword" offhand="Axe" %}
+{% include templates/builds/weapon-skills.html profession="Revenant" mainhand="Staff" %}
+Ideally these weapons have Sigils of Force and Sigils of Air.
+
+### Utilities
+The Herald uses Legendary Dragon Stance and Legendary Demon Stance.
+{% include templates/builds/utility-skills.html healing="Facet of Light" utility1="Facet of Darkness" utility2="Facet of Elements" utility3="Facet of Strength" elite="Facet of Chaos" %}
+{% include templates/builds/utility-skills.html healing="Empowering Misery" utility1="Pain Absorption" utility2="Banish Enchantment" utility3="Unyielding Anguish" elite="Embrace the Darkness" %}
 
 ### Traits
 {% include templates/builds/specialization.html name="Devastation" major1="2" major2="3" major3="1" %}

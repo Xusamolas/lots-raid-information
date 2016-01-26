@@ -22,9 +22,19 @@ During the split phases, the tank goes to the **Blue Guardian**.
 As a Chronomancer with a sword, the Chronomancer has to boonstrip the Blue Guardian for it to become vulnerable to attacks if there is no Chonomancer tank.
 
 ## Build
-- Assassin's or Berserker's armor with ideally Superior Runes of the Chronomancer
-- Assassin's or Berserker's sword/sword and shield with ideally Sigils of Force and Sigils of Concentration
-- Well of Eternity, Signet of Inspiration, Well of Recall, Well of Action, Timewarp
+The Chronomancer uses Assassin's gear.
+If Assassin's is not available, use Berserker's.
+
+### Armor
+Ideally all the armor pieces have Superior Runes of the Chronomancer.
+
+### Weapons
+{% include templates/builds/weapon-skills.html profession="Mesmer" mainhand="Sword" offhand="Focus" %}
+{% include templates/builds/weapon-skills.html profession="Mesmer" mainhand="Sword" offhand="Sword" %}
+Ideally these weapons have Sigils of Force and Sigils of Concentration.
+
+### Utilities
+{% include templates/builds/utility-skills.html healing="Well of Eternity" utility1="Signet of Inspiration" utility2="Well of Recall" utility3="Well of Action" elite="Time Warp" %}
 
 ### Traits
 {% include templates/builds/specialization.html name="Domination" major1="2" major2="2" major3="2" %}
@@ -50,6 +60,9 @@ Utility:
 - Or equivalents
 
 ## Change history
+25 January 2016 *(Archomeda)*:
+: - Changed Shield to Focus for an extra pull
+
 23 January 2016 *(Archomeda)*:
 : - Changed Sigil of Air to Sigil of Concentration
 - Changed food to provide increased boon duration

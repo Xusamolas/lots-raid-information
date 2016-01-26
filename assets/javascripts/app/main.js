@@ -128,6 +128,63 @@ define(["jquery", "app/builds"], function($, Builds) {
                 console.log("Could not load specializations from API: ", status, text, data);
             });
         }
+
+        if ($(".weapon-skills-definition").length > 0 || $(".utility-skills-definition").length > 0) {
+            Builds.skills.preload(function(data, event) {
+                $(".weapon-skills-definition").each(function() {
+                    var $this = $(this);
+                    var profession = $this.attr("data-profession");
+                    var mainHand = $this.attr("data-mainhand");
+                    var offHand = $this.attr("data-offhand");
+                    var extraParam = $this.attr("data-extra");
+
+                    var weaponSkills = Builds.skills.getWeaponSkills(profession, mainHand, offHand, extraParam);
+                    $this.empty();
+                    $this.addClass("skills weapon-skills").removeClass("weapon-skills-definition");
+                    for (var i = 0; i < 5; i++) {
+                        if (weaponSkills[i]) {
+                            $("<span>", {
+                                "class": "skill-icon weapon-skill-icon",
+                                "css": { "background-image": "url(" + weaponSkills[i].icon + ")" },
+                                "title": weaponSkills[i].name
+                            }).appendTo($this);
+                        } else {
+                            $("<span>", { "class": "skill-icon weapon-skill-icon" }).appendTo($this);
+                        }
+                    }
+                    $("<span>", { "class": "skills-description weapon-skills-description" }).text(mainHand + (offHand ? "/" + offHand : "")).appendTo($this);
+                });
+
+                $(".utility-skills-definition").each(function() {
+                    var $this = $(this);
+                    var skillHealing = $this.attr("data-healing");
+                    var skillUtility1 = $this.attr("data-utility1");
+                    var skillUtility2 = $this.attr("data-utility2");
+                    var skillUtility3 = $this.attr("data-utility3");
+                    var skillElite = $this.attr("data-elite");
+                    var skills = [skillHealing, skillUtility1, skillUtility2, skillUtility3, skillElite];
+
+                    var utilitySkills = Builds.skills.getByNames(skills);
+                    $this.empty();
+                    $this.addClass("skills utility-skills").removeClass("utility-skills-definition");
+                    for (var i = 0; i < 5; i++) {
+                        var utilitySkill = utilitySkills[skills[i]];
+                        if (utilitySkill) {
+                            $("<span>", {
+                                "class": "skill-icon utility-skill-icon",
+                                "css": { "background-image": "url(" + utilitySkill.icon + ")" },
+                                "title": utilitySkill.name
+                            }).appendTo($this);
+                        } else {
+                            $("<span>", { "class": "skill-icon utility-skill-icon" }).appendTo($this);
+                        }
+                    }
+                    $("<span>", { "class": "skills-description utility-skills-description" }).text(skills.join(", ")).appendTo($this);
+                });
+            }, function(status, text, data, event) {
+                console.log("Could not load skills from API: ", status, text, data);
+            });
+        }
     });
 
 });

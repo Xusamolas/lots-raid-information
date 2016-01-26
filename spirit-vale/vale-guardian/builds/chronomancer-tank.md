@@ -26,12 +26,19 @@ As a Chronomancer with a sword, the tank has to boonstrip the Blue Guardian for 
 When rotating around the arena, make sure to position the Vale Guardian near the edge of the next sector (but not to close!), somewhere near the middle of the separation line.
 
 ## Build
-The tank should get between 1400 and 1500 toughness by any stat type (e.g. Knight's).
+The tank should get **between 1400 and 1500 toughness** by any possible stat type that gives toughness (e.g. Knight's).
 The rest should be filled in with either Assassin's or Berserker's gear.
 
-- Armor with ideally Superior Runes of the Chronomancer
-- Sword/sword and shield with ideally Sigils of Force and Sigils of Concentration
-- Well of Eternity, Signet of Inspiration, Well of Recall, Well of Action, Timewarp
+### Armor
+Ideally all the armor pieces have Superior Runes of the Chronomancer.
+
+### Weapons
+{% include templates/builds/weapon-skills.html profession="Mesmer" mainhand="Sword" offhand="Shield" %}
+{% include templates/builds/weapon-skills.html profession="Mesmer" mainhand="Sword" offhand="Sword" %}
+Ideally these weapons have Sigils of Force and Sigils of Concentration.
+
+### Utilities
+{% include templates/builds/utility-skills.html healing="Well of Eternity" utility1="Signet of Inspiration" utility2="Well of Recall" utility3="Well of Action" elite="Time Warp" %}
 
 ### Traits
 {% include templates/builds/specialization.html name="Inspiration" major1="3" major2="2" major3="1" %}

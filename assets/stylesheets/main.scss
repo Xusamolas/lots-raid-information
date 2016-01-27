@@ -5,6 +5,8 @@ sitemap:
 
 @charset "utf-8";
 
+$assets-path: "{{ site.baseurl }}/assets/";
+
 $media-xl-max-width: 1500px;
 $media-l-max-width: 1200px;
 $media-m-max-width: 992px;
@@ -16,7 +18,7 @@ $font-size: 14px;
 $font-line-height: 1.5;
 $font-weight: 400;
 
-$logo-url: url({{ site.baseurl }}/assets/images/lots-emblem.svg);
+$logo-url: url($assets-path + "images/lots-emblem.svg");
 $background-color: #eee;
 $text-color: #222;
 $link-color: #39c;
@@ -27,7 +29,7 @@ $warning-text-color: #975d01;
 $error-text-color: #970101;
 
 // Octicons settings
-$octicons-font-path: "{{ site.baseurl }}/assets/fonts";
+$octicons-font-path: $assets-path + "fonts";
 
 @import
     "base",

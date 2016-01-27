@@ -3,7 +3,8 @@
 .tooltip-gw2 {
     border: 2px solid black;
     background: #232b2e;
-    color: #fff;
+    color: white;
+    max-width: 320px;
 
     .qtip-titlebar, .qtip-close, .qtip-tip {
         display: none !important;
@@ -12,6 +13,8 @@
         font-family: Menomonia, Arial;
         font-size: 14px;
         line-height: 16px;
+        position: relative;
+        padding: 0 5px 4px 5px;
 
         .tooltip-color-reminder {
             color: #a1a1a1;
@@ -25,8 +28,53 @@
             font-size: 16px;
             line-height: 24px;
         }
-        .tooltip-fact {
+        .tooltip-recharge {
+            display: inline-block;
+            position: absolute;
+            top: 3px;
+            right: 3px;
+            background-image: url($assets-path + "images/recharge.png");
+            background-repeat: no-repeat;
+            background-position: right;
+            background-size: 16px;
+            padding-right: 18px;
+            color: white;
+        }
+
+        .tooltip-facts {
             color: #a1a1a1;
+            margin-top: 10px;
+
+            .tooltip-fact {
+                display: table;
+                position: relative;
+                .tooltip-fact-icon {
+                    display: table-cell;
+                    vertical-align: middle;
+                    white-space: nowrap;
+                }
+                img.tooltip-fact-icon, .tooltip-fact-icon img {
+                    width: 32px;
+                    height: 32px
+                }
+                .tooltip-fact-stack {
+                    position: absolute;
+                    left: 25px;
+                    top: 16px;
+                    color: white;
+                }
+                .tooltip-fact-prefixedstack {
+                    position: absolute;
+                    left: 57px;
+                    top: 16px;
+                    color: white;
+                }
+                .tooltip-fact-description {
+                    display: table-cell;
+                    padding-left: 3px;
+                    vertical-align: middle;
+                }
+            }
         }
     }
 }

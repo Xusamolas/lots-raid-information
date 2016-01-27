@@ -110,6 +110,7 @@ define(["jquery", "app/builds", "app/tooltip", "qtip"], function($, Builds, Tool
                 var weaponSkills = Builds.skills.getWeaponSkills(profession, mainHand, offHand, extraParam);
                 $this.empty();
                 $this.addClass("skills weapon-skills").removeClass("weapon-skills-definition");
+                $("<div>", { "class": "skills-description weapon-skills-description" }).text(mainHand + (offHand ? "/" + offHand : "")).appendTo($this);
                 for (var i = 0; i < weaponSkills.length; i++) {
                     var weaponSkill = weaponSkills[i];
                     if (weaponSkill) {
@@ -124,7 +125,6 @@ define(["jquery", "app/builds", "app/tooltip", "qtip"], function($, Builds, Tool
                     }
                     Tooltip.generateSkill(weaponSkill).appendTo($tooltips);
                 }
-                $("<span>", { "class": "skills-description weapon-skills-description" }).text(mainHand + (offHand ? "/" + offHand : "")).appendTo($this);
             });
 
             $(".utility-skills-definition").each(function() {

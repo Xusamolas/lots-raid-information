@@ -23,7 +23,7 @@ Its attacks can be negated by dodging, blocking, evading or becoming invulnerabl
 During the split phases, the tank goes to the **Blue Guardian**.
 As a Chronomancer with a sword, the tank has to boonstrip the Blue Guardian for it to become vulnerable to attacks.
 
-When rotating around the arena, make sure to position the Vale Guardian near the edge of the next sector (but not to close!), somewhere near the middle of the separation line.
+When rotating around the arena, make sure to position the Vale Guardian near the edge of the next sector (but not too close!), somewhere near the middle of the separation line.
 
 ## Build
 The tank should get **between 1400 and 1500 toughness** by any possible stat type that gives toughness (e.g. Knight's).

@@ -33,7 +33,7 @@ During the split phase, the Engineer goes to the **Red Guardian**.
 {% capture variant %}
 The Engineer uses Viper gear.
 If Viper's is not available, use Sinister.
-If Sinister is not available on a trinket, use Berserker's.
+If Sinister is not available on a trinket, use Rampager's.
 
 ### Armor
 Ideally all the armor pieces have Superior Runes of the Berserker.
@@ -77,7 +77,7 @@ The Tools specialization is swapped out in favor of Inventions.*
 
 The Engineer uses Viper gear.
 If Viper's is not available, use Sinister.
-If Sinister is not available on a trinket, use Berserker's.
+If Sinister is not available on a trinket, use Rampager's.
 
 ### Armor
 Ideally all the armor pieces have Superior Runes of the Berserker.
@@ -117,6 +117,7 @@ Utility:
 ## Change history
 27 January 2016 *(Archomeda)*:
 : - Added a default variant that differs from the previous variant; the previous default variant is now known as the *Survivability* variant
+- Changed Berserker's trinkets to Rampager's if no Viper's or Sinister is available
 
 18 December 2015 *(Archomeda)*:
 : - Initial draft

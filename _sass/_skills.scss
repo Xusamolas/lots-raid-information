@@ -1,0 +1,33 @@
+.skills {
+    overflow: hidden;
+    margin: 5px;
+    .skill-icon {
+        display: inline-block;
+        background-size: 64px;
+        background-position: -5px -5px;
+        vertical-align: middle;
+        width: 54px;
+        height: 54px;
+        &.skill-icon-background {
+            background-color: black;
+        }
+        &:not(:first-child) {
+            margin-left: 2px;
+        }
+    }
+    .skills-description {
+        margin-left: 5px;
+    }
+}
+
+.weapon-skills {
+    .weapon-skills-description {
+        font-weight: bold;
+    }
+}
+
+.utility-skills {
+    .utility-skills-description {
+        display: block;
+    }
+}

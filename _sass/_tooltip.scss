@@ -1,0 +1,32 @@
+@import url(https://d1h9a8s8eodvjz.cloudfront.net/fonts/menomonia/08-02-12/menomonia.css);
+
+.tooltip-gw2 {
+    border: 2px solid black;
+    background: #232b2e;
+    color: #fff;
+
+    .qtip-titlebar, .qtip-close, .qtip-tip {
+        display: none !important;
+    }
+    .qtip-content {
+        font-family: Menomonia, Arial;
+        font-size: 14px;
+        line-height: 16px;
+
+        .tooltip-color-reminder {
+            color: #a1a1a1;
+        }
+        .tooltip-color-flavor {
+            color: cyan;
+        }
+
+        .tooltip-name {
+            color: #ffcc77;
+            font-size: 16px;
+            line-height: 24px;
+        }
+        .tooltip-fact {
+            color: #a1a1a1;
+        }
+    }
+}

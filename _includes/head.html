@@ -6,6 +6,7 @@
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/qtip2/2.2.1/basic/jquery.qtip.min.css" type="text/css">
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/stylesheets/main.css" type="text/css">
   <script data-main="{{ site.baseurl }}/assets/javascripts/app.js" src="{{ site.baseurl }}/assets/javascripts/lib/require.js"></script>
   <!--[if lt IE 9]>

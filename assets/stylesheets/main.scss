@@ -32,6 +32,7 @@ $octicons-font-path: "{{ site.baseurl }}/assets/fonts";
 @import
     "base",
     "layout",
+    "tooltip",
     "octicons",
     "syntax-highlighting"
 ;

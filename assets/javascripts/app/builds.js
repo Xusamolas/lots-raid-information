@@ -1,8 +1,6 @@
 define(["jquery", "GW2.class"], function($, gw2) {
 
-    function Builds() {
-        this.specializations = {};
-    }
+    function Builds() { }
 
     Builds.skills = {
         _cache: null,
@@ -101,7 +99,7 @@ define(["jquery", "GW2.class"], function($, gw2) {
             });
             return weaponSkills;
         }
-    }
+    };
 
     Builds.specializations = {
         _cache: null,
@@ -156,7 +154,7 @@ define(["jquery", "GW2.class"], function($, gw2) {
                 onSuccess(traits, event);
             }, onError);
         }
-    }
+    };
 
     return Builds;
 

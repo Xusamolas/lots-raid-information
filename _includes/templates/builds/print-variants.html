@@ -1,0 +1,12 @@
+<div class="tabs build-variants">
+  <span class="tabs-description">Variants:</span>
+  {% for variant in include.variants %}
+    <div class="tab build-variant">
+      <input type="radio" id="build-variant-{{ forloop.index }}" name="build-variants-group" {% if forloop.first %}checked="checked"{% endif %}>
+      <label for="build-variant-{{ forloop.index }}">{% if include.variant_titles[forloop.index0] %}{{ include.variant_titles[forloop.index0] }}{% else %}Variant {{ forloop.index }}{% endif %}</label>
+      <div class="tab-content build-variant-content">
+        {{ variant | markdownify }}
+      </div>
+    </div>
+  {% endfor %}
+</div>

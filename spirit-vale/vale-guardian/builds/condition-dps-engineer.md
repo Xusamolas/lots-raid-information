@@ -13,6 +13,8 @@ build:
 {% include urls.md %}
 
 # Vale Guardian: Builds &ndash; Condition DPS Engineer
+{% assign variants = "" | split: "|" %}
+{% assign variant_titles = "" | split: "|" %}
 {% include templates/messages/build-unfinished.html %}
 
 The Engineer is mostly ranged and will go for the **green circles**.
@@ -27,6 +29,52 @@ This is very important on the green circles.
 During the split phase, the Engineer goes to the **Red Guardian**.
 
 ## Build
+{% capture variant_title %}Default{% endcapture %}
+{% capture variant %}
+The Engineer uses Viper gear.
+If Viper's is not available, use Sinister.
+If Sinister is not available on a trinket, use Berserker's.
+
+### Armor
+Ideally all the armor pieces have Superior Runes of the Berserker.
+
+### Weapons
+{% include templates/builds/weapon-skills.html profession="Engineer" mainhand="Pistol" offhand="Pistol" %}
+Ideally these weapons have Sigils of Malice and Sigils of Bursting.
+
+### Utilities
+{% include templates/builds/utility-skills.html healing="Healing Turret" utility1="Bomb Kit" utility2="Grenade Kit" utility3="Flamethrower" elite="Elite Mortar Kit" %}
+
+### Traits
+{% include templates/builds/specialization.html name="Explosives" major1="3" major2="2" major3="2" %}
+{% include templates/builds/specialization.html name="Firearms" major1="1" major2="1" major3="3" %}
+{% include templates/builds/specialization.html name="Tools" major1="2" major2="1" major3="2" %}
+
+## Consumables
+Food:
+
+- Bowl of Garlic Kale Sautee
+- Rare Veggie Pizza
+- Koi Cake
+- Or equivalents
+
+Utility:
+
+- Toxic Focusing Crystal
+- Master Tuning Crystal
+- Tuning Icicle
+- Or equivalents
+{% endcapture %}
+{% assign variants = variants | push: variant %}
+{% assign variant_titles = variant_titles | push: variant_title %}
+
+{% comment %}===================================================================================================={% endcomment %}
+
+{% capture variant_title %}Survivability{% endcapture %}
+{% capture variant %}
+*This variant is meant for players who can't survive during the fight or who are low on health most of the time.
+The Tools specialization is swapped out in favor of Inventions.*
+
 The Engineer uses Viper gear.
 If Viper's is not available, use Sinister.
 If Sinister is not available on a trinket, use Berserker's.
@@ -60,7 +108,15 @@ Utility:
 - Master Tuning Crystal
 - Tuning Icicle
 - Or equivalents
+{% endcapture %}
+{% assign variants = variants | push: variant %}
+{% assign variant_titles = variant_titles | push: variant_title %}
+
+{% include templates/builds/print-variants.html variants=variants variant_titles=variant_titles %}
 
 ## Change history
+27 January 2016 *(Archomeda)*:
+: - Added a default variant that differs from the previous variant; the previous default variant is now known as the *Survivability* variant
+
 18 December 2015 *(Archomeda)*:
 : - Initial draft

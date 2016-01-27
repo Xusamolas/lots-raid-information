@@ -1,0 +1,46 @@
+.tabs {
+    &:after {
+        clear: both;
+        content: '';
+        display: table;
+    }
+
+    .tabs-description {
+        display: inline-block;
+        padding: 2px 0 5px 0;
+        font-weight: bold;
+    }
+
+    .tab {
+        display: inline;
+
+        input[type="radio"] {
+            display: none;
+            &:checked {
+                ~ label {
+                    border-bottom: 3px solid $text-color;
+                    font-weight: bold;
+                }
+                ~ .tab-content {
+                    display: block;
+                }
+            }
+        }
+        label {
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            vertical-align: bottom;
+            margin-left: 5px;
+            padding: 2px 6px;
+            background: $background-color;
+            border-bottom: 3px solid transparent;
+            box-shadow: 0 0 2px $background-color inset;
+        }
+        .tab-content {
+            display: none;
+            float: left;
+            width: 100%;
+        }
+    }
+}

@@ -17,6 +17,9 @@ requirejs.config({
         },
         "Ajax.class": {
             exports: "FW_Ajax"
+        },
+        "jquery-dateFormat.min": {
+            deps: ["jquery"]
         }
     }
 });

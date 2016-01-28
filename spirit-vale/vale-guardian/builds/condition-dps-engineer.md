@@ -11,10 +11,10 @@ build:
     profession: Engineer
 ---
 {% include urls.md %}
-
-# Vale Guardian: Builds &ndash; Condition DPS Engineer
 {% assign variants = "" | split: "|" %}
 {% assign variant_titles = "" | split: "|" %}
+
+# Vale Guardian: Builds &ndash; Condition DPS Engineer
 {% include templates/messages/build-unfinished.html %}
 
 The Engineer is mostly ranged and will go for the **green circles**.

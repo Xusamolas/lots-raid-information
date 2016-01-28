@@ -1,4 +1,20 @@
-define(["jquery", "app/builds", "app/tooltip", "qtip"], function($, Builds, Tooltip) {
+define(["jquery", "app/builds", "app/tooltip", "app/schedule", "qtip", "jquery-dateFormat.min"], function($, Builds, Tooltip, Schedule) {
+
+    function bootstrapSchedule() {
+        Schedule.get("raid", function(data) {
+            var $schedule = $(".schedule");
+            if (data.length > 0) {
+                data.reverse();
+                for (var i in data) {
+                    $schedule.append($("<li>").text($.format.date(data[i].start, "ddd d MMMM, H:mm") + " (local time)"));
+                }
+            } else {
+                $schedule.append($("<li>").text("There's no raid scheduled at the moment"));
+            }
+        }, function(status, text, data, event) {
+            console.log("Could not load schedule from Legacy of the Six API: ", status, text, data);
+        });
+    }
 
     function bootstrapSpecializations() {
         var createLine = function(start, end) {
@@ -72,8 +88,9 @@ define(["jquery", "app/builds", "app/tooltip", "qtip"], function($, Builds, Tool
                     $(element)
                         .attr("data-trait-id", trait.id)
                         .css("background-image", "url(" + trait.icon + ")");
-                    Tooltip.generateTrait(trait).appendTo($tooltips);
-                    $(element).qtip({ content: { text: $("#tooltip-trait-" + trait.id) }});
+                    var tooltip = Tooltip.generate(trait);
+                    tooltip.appendTo($tooltips);
+                    $(element).qtip({ content: { text: tooltip }});
                 };
 
                 $(".specialization-definition").each(function() {
@@ -107,8 +124,9 @@ define(["jquery", "app/builds", "app/tooltip", "qtip"], function($, Builds, Tool
             $(element)
                 .attr("data-skill-id", skill.id)
                 .css("background-image", "url(" + skill.icon + ")");
-            Tooltip.generateSkill(skill).appendTo($tooltips);
-            $(element).qtip({ content: { text: $("#tooltip-skill-" + skill.id) }});
+            var tooltip = Tooltip.generate(skill);
+            tooltip.appendTo($tooltips);
+            $(element).qtip({ content: { text: tooltip }});
         };
 
         $(".weapon-skills-definition").each(function() {
@@ -173,11 +191,18 @@ define(["jquery", "app/builds", "app/tooltip", "qtip"], function($, Builds, Tool
         $.fn.qtip.defaults.position.adjust.x = 20;
         $.fn.qtip.defaults.style.classes = "tooltip-gw2";
 
-        // Check if we have to load specializations or not
+        // Check if we have to load the schedule
+        if ($(".schedule").length > 0) {
+            // Enable this when it's ready™
+            //bootstrapSchedule();
+        }
+
+        // Check if we have to load specializations
         if ($(".specialization-definition").length > 0) {
             bootstrapSpecializations();
         }
 
+        // Check if we have to load skills
         if ($(".weapon-skills-definition").length > 0 || $(".utility-skills-definition").length > 0) {
             bootstrapSkills();
         }

@@ -20,6 +20,8 @@ Our current schedule is as follows:
 
 - Sunday 31 January, 20:00 CET (19:00 GMT)
 
+<ul class="schedule"></ul>
+
 Please be on time if you're joining for our scheduled raids.
 If you're joining our raids frequently, please warn us in advance if you can't make it.
 

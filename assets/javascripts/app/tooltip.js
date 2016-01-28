@@ -13,8 +13,8 @@ define(["jquery", "qtip"], function($) {
         return text;
     };
 
-    Tooltip._generate = function(idPrefix, obj) {
-        var tooltip = $("<div>", { "id": "tooltip-" + idPrefix + "-" + obj.id })
+    Tooltip.generate = function(obj) {
+        var tooltip = $("<div>", { "class": "tooltip" })
             .append($("<div>", { "class": "tooltip-name" }).text(obj.name))
             .append($("<div>", { "class": "tooltip-description" }).html(this._parseText(obj.description)));
 
@@ -99,14 +99,6 @@ define(["jquery", "qtip"], function($) {
         }
 
         return tooltip;
-    };
-
-    Tooltip.generateSkill = function(obj) {
-        return this._generate("skill", obj);
-    };
-
-    Tooltip.generateTrait = function(obj) {
-        return this._generate("trait", obj);
     };
 
     return Tooltip;

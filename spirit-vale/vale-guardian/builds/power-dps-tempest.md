@@ -1,5 +1,7 @@
 ---
 layout: default
+title: "Vale Guardian: Power DPS Tempest"
+breadcrumb_title: Power DPS Tempest
 navigation:
     visible: false
 

@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Vale Guardian
 navigation:
     visible: true
     title: Vale Guardian

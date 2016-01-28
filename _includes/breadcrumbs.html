@@ -1,0 +1,18 @@
+{% assign paths = page.url | split: "/" %}
+{% assign current_path = "" %}
+
+<ul class="breadcrumb">
+  {% for path in paths %}
+    {% assign breadcrumb_last = forloop.last %}
+    {% assign current_path = current_path | append: path | append: "/" %}
+    {% for page in site.pages %}
+      {% if page.url == current_path %}
+        {% if breadcrumb_last %}
+          <li class="current">{% if page.breadcrumb_title %}{{ page.breadcrumb_title }}{% elsif page.title %}{{ page.title }}{% else %}{{ path }}{% endif %}</li>
+        {% else %}
+          <li><a href="{{ site.baseurl }}{{ current_path }}">{% if page.breadcrumb_title %}{{ page.breadcrumb_title }}{% elsif page.title %}{{ page.title }}{% else %}{{ path }}{% endif %}</a></li>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+</ul>

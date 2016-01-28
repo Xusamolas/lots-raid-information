@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Salvation Pass
 navigation:
     visible: true
     title: Salvation Pass

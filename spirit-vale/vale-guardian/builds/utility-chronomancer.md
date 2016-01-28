@@ -1,5 +1,7 @@
 ---
 layout: default
+title: "Vale Guardian: Utility Chronomancer"
+breadcrumb_title: Utility Chronomancer
 navigation:
     visible: false
 

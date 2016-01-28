@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Gorseval
 navigation:
     visible: true
     title: Gorseval

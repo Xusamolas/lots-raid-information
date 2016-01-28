@@ -1,5 +1,7 @@
 ---
 layout: default
+title: "Vale Guardian: Power DPS Herald"
+breadcrumb_title: Power DPS Herald
 navigation:
     visible: false
 

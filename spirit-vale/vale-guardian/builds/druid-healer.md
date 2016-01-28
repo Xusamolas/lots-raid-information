@@ -1,5 +1,7 @@
 ---
 layout: default
+title: "Vale Guardian: Druid Healer"
+breadcrumb_title: Druid Healer
 navigation:
     visible: false
 

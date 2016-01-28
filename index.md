@@ -1,5 +1,6 @@
 ---
 layout: default
+breadcrumb_title: Home
 navigation:
     visible: true
     title: Home

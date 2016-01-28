@@ -1,5 +1,7 @@
 ---
 layout: default
+title: "Vale Guardian: Composition"
+breadcrumb_title: Composition
 navigation:
     visible: true
     title: Composition

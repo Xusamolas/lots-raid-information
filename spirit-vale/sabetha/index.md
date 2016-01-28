@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Sabetha
 navigation:
     visible: true
     title: Sabetha

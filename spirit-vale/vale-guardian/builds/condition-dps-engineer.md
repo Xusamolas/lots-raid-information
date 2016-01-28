@@ -1,5 +1,7 @@
 ---
 layout: default
+title: "Vale Guardian: Condition DPS Engineer"
+breadcrumb_title: Condition DPS Engineer
 navigation:
     visible: false
 

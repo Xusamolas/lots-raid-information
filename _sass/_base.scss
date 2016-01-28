@@ -51,6 +51,11 @@ header {
     }
 }
 
+.breadcrumb li.current {
+    font-weight: bold;
+}
+
+
 // Content
 
 .icon {

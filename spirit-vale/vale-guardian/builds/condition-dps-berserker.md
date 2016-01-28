@@ -1,5 +1,7 @@
 ---
 layout: default
+title: "Vale Guardian: Condition DPS Berserker"
+breadcrumb_title: Condition DPS Berserker
 navigation:
     visible: false
 

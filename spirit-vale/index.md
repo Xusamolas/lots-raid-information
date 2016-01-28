@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Spirit Vale
 navigation:
     visible: true
     title: Spirit Vale

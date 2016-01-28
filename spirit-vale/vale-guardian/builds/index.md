@@ -1,5 +1,7 @@
 ---
 layout: default
+title: "Vale Guardian: Builds"
+breadcrumb_title: Builds
 navigation:
     visible: true
     title: Builds

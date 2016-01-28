@@ -1,5 +1,7 @@
 ---
 layout: default
+title: "Vale Guardian: Chronomancer Tank"
+breadcrumb_title: Chronomancer Tank
 navigation:
     visible: false
 

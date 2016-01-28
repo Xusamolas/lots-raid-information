@@ -1,5 +1,7 @@
 ---
 layout: default
+title: "Vale Guardian: Power DPS Berserker"
+breadcrumb_title: Power DPS Berserker
 navigation:
     visible: false
 

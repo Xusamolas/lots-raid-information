@@ -1,5 +1,7 @@
 ---
 layout: default
+title: "Vale Guardian: Nomenclature"
+breadcrumb_title: Nomenclature
 navigation:
     visible: true
     title: Nomenclature

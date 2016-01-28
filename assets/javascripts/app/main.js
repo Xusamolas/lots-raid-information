@@ -9,7 +9,7 @@ define(["jquery", "app/builds", "app/tooltip", "app/schedule", "qtip", "jquery-d
                     $schedule.append($("<li>").text($.format.date(data[i].start, "ddd d MMMM, H:mm") + " (local time)"));
                 }
             } else {
-                $schedule.append($("<li>").text("There's no raid scheduled at the moment"));
+                $schedule.append($("<li>").text("There are no raids scheduled at the moment"));
             }
         }, function(status, text, data, event) {
             console.log("Could not load schedule from Legacy of the Six API: ", status, text, data);

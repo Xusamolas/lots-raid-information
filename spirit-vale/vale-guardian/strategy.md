@@ -1,5 +1,7 @@
 ---
 layout: default
+title: "Vale Guardian: Strategy"
+breadcrumb_title: Strategy
 navigation:
     visible: true
     title: Strategy

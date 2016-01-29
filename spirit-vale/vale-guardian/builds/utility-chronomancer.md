@@ -12,7 +12,6 @@ build:
     type: Other
     profession: Chronomancer
 ---
-{% include urls.md %}
 
 # Vale Guardian: Builds &ndash; Utility Chronomancer
 {% include templates/messages/build-unfinished.html %}

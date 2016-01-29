@@ -6,7 +6,6 @@ navigation:
     title: Home
 weight: "000"
 ---
-{% include urls.md %}
 
 # Legacy of the Six Raids
 This website contains information about how our guild, [Legacy of the Six][lots]{:target="_blank"}, runs its Guild Wars 2 raids.
@@ -36,3 +35,8 @@ When it's approved, you'll see your changes live after a few minutes here.
 This website is maintained by [Archomeda][github-profile-archomeda]{:target="_blank"}.
 If you want to contact us regarding this website, please do so in [the issues][github-repo-issues]{:target="_blank"} of the repository behind this website, or ingame at Archomeda.6472.
 If you want to contact the guild Legacy of the Six, please go to [our contact form on our website][lots-contact]{:target="_blank"}.
+
+[lots]: https://legacyofthesix.com "Legacy of the Six website"
+[lots-contact]: https://legacyofthesix.com/contact "Contact Legacy of the Six"
+[github-profile-archomeda]: https://github.com/Archomeda "Archomeda's profile on GitHub"
+[github-repo-issues]: {{site.github.issues_url}} "Issues on GitHub"

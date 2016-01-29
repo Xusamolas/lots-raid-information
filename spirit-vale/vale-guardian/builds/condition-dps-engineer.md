@@ -12,7 +12,6 @@ build:
     type: Conditions
     profession: Engineer
 ---
-{% include urls.md %}
 {% assign variants = "" | split: "|" %}
 {% assign variant_titles = "" | split: "|" %}
 

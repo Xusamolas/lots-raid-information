@@ -9,7 +9,6 @@ weight: "002"
 raid:
     wing_name: Salvation Pass
 ---
-{% include urls.md %}
 
 # Salvation Pass
 Salvation Pass is the second wing of the Forsaken Thicket.

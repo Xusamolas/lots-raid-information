@@ -12,7 +12,6 @@ build:
     type: Power
     profession: Tempest
 ---
-{% include urls.md %}
 
 # Vale Guardian: Builds &ndash; Power DPS Tempest
 {% include templates/messages/build-unfinished.html %}

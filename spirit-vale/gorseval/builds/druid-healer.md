@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Vale Guardian: Druid Healer"
+title: "Gorseval: Druid Healer"
 breadcrumb_title: Druid Healer
 navigation:
     visible: false
@@ -13,14 +13,12 @@ build:
     profession: Druid
 ---
 
-# Vale Guardian: Builds &ndash; Druid Healer
+# Gorseval: Builds &ndash; Druid Healer
 {% include templates/messages/build-unfinished.html %}
 
 The healer's job sounds very easy: keep everyone alive as much as possible.
 Keep an eye on the HP of other players and heal accordingly.
-Of course you should still do some damage to the Vale Guardian if possible, but it's not your main priority.
-
-During the split phases, the tank goes to the **Blue Guardian**.
+Of course you should still do some damage to Gorseval if possible, but it's not your main priority.
 
 ## Build
 The healer can use both Zealot's gear or Berserker's gear, or a mix.
@@ -59,11 +57,5 @@ Utility:
 - Or equivalents
 
 ## Change history
-23 January 2016 *(Archomeda)*:
-: - Added pets
-- Changed gear set and clarified that Berserker's gear is viable
-- Changed traits to be more offensive
-- Changed utilities to mostly glyphs
-
-18 December 2015 *(Archomeda)*:
+29 January 2016 *(Archomeda)*:
 : - Initial draft

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Vale Guardian: Chronomancer Tank"
+title: "Gorseval: Chronomancer Tank"
 breadcrumb_title: Chronomancer Tank
 navigation:
     visible: false
@@ -13,18 +13,15 @@ build:
     profession: Chronomancer
 ---
 
-# Vale Guardian: Builds &ndash; Chronomancer Tank
+# Gorseval: Builds &ndash; Chronomancer Tank
 {% include templates/messages/build-unfinished.html %}
 
-The tank's job is to kite to Vale Guardian around the arena.
-The tank has to be careful with the Vale Guardian's attacks and needs to keep it facing away from the rest of the players as much as possible.
-You can see the direction the Vale Guardian is facing by its marker on the ground.
+The tank's job is to kite Gorseval to specific locations.
+The tank has to be careful with Gorseval's attacks and needs to keep it facing away from the rest of the players as much as possible.
 Its attacks can be negated by dodging, blocking, evading or becoming invulnerable.
 
-During the split phases, the tank goes to the **Blue Guardian**.
-As a Chronomancer with a sword, the tank has to boonstrip the Blue Guardian for it to become vulnerable to attacks.
-
-When rotating around the arena, make sure to position the Vale Guardian near the edge of the next sector (but not too close!), somewhere near the middle of the separation line.
+During the spirit phases, the tank goes to the correct direction at the barrier.
+When Gorseval is there as well, pull the spirits to one location where they can be killed.
 
 ## Build
 The tank should get **between 1400 and 1500 toughness** by any possible stat type that gives toughness (e.g. Knight's).
@@ -65,5 +62,5 @@ Utility:
 - Or equivalents
 
 ## Change history
-23 January 2016 *(Archomeda)*:
+29 January 2016 *(Archomeda)*:
 : - Initial draft

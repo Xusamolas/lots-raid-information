@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Vale Guardian: Power DPS Herald"
+title: "Gorseval: Power DPS Herald"
 breadcrumb_title: Power DPS Herald
 navigation:
     visible: false
@@ -13,17 +13,15 @@ build:
     profession: Herald
 ---
 
-# Vale Guardian: Builds &ndash; Power DPS Herald
+# Gorseval: Builds &ndash; Power DPS Herald
 {% include templates/messages/build-unfinished.html %}
 
-The Herald will always be in melee range of the Vale Guardian and will share various boons while being in the Legendary Dragon Stance.
+The Herald will always be in melee range of Gorseval and will share various boons while being in the Legendary Dragon Stance.
 While being in this stance, you use various facets to share might and fury, and try to extend the boon duration by using Facet of Nature.
 When your energy runs out, swap to your other stance and use whatever is necessary to get as much DPS as possible.
 
 When fast CC is required, you swap to staff and use skill #5, or consume your Facet of Chaos.
 Your axe skill #5 can also CC if needed.
-
-During the split phases, the Heralds split up and go to the **Green Guardian** and the **Blue Guardian**.
 
 ## Build
 The Herald uses Berserker's gear.
@@ -57,9 +55,5 @@ Utility:
 - Tin of Fruitcake
 
 ## Change history
-25 January 2016 *(Archomeda)*:
-: - Added Plate of Truffle Steak as food
-- Removed the Superior Rune of Strength as Heralds and Berserkers give enough might (the extra might duration is wasted anyway)
-
-18 December 2015 *(Archomeda)*:
+29 January 2016 *(Archomeda)*:
 : - Initial draft

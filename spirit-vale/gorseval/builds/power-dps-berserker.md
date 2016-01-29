@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Vale Guardian: Power DPS Berserker"
+title: "Gorseval: Power DPS Berserker"
 breadcrumb_title: Power DPS Berserker
 navigation:
     visible: false
@@ -15,16 +15,14 @@ build:
 {% assign variants = "" | split: "|" %}
 {% assign variant_titles = "" | split: "|" %}
 
-# Vale Guardian: Builds &ndash; Power DPS Berserker
+# Gorseval: Builds &ndash; Power DPS Berserker
 {% include templates/messages/build-unfinished.html %}
 
-The Berserker will always be in melee range of the Vale Guardian and will share might stacks upon critting with the greatsword.
+The Berserker will always be in melee range of Gorseval and will share might stacks upon critting with the greatsword.
 You build up your adrenaline, go berserk and use your F1 skill in order to increase your DPS even more.
 When a group of players are down and are close together, use the Battle Standard to AoE resurrect them.
 
-Only during CC phases (and split phases in order to kill the colored guardian), you swap to your mace/mace in order to CC the Vale Guardian.
-
-During the split phases, the Berserkers split up and go to the **Green Guardian** and the **Blue Guardian**.
+Only during CC phases, you swap to your mace/mace in order to CC the Vale Guardian.
 
 ## Build
 {% capture variant_title %}Default{% endcapture %}
@@ -104,11 +102,5 @@ Utility:
 {% include templates/builds/print-variants.html variants=variants variant_titles=variant_titles %}
 
 ## Change history
-28 January 2016 *(Archomeda)*:
-: - Added shield as variant
-
-25 January 2016 *(Archomeda)*:
-: - Removed the Superior Rune of Strength as Heralds and Berserkers give enough might (the extra might duration is wasted anyway)
-
-18 December 2015 *(Archomeda)*:
+29 January 2016 *(Archomeda)*:
 : - Initial draft

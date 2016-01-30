@@ -4,7 +4,7 @@ title: Salvation Pass
 navigation:
     visible: true
     title: Salvation Pass
-weight: "002"
+weight: "003"
 
 raid:
     wing_name: Salvation Pass

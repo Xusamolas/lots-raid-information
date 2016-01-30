@@ -46,17 +46,9 @@ Ideally these weapons have Sigils of Force and Sigils of Water.
 {% include templates/builds/specialization.html name="Druid" major1="2" major2="2" major3="1" %}
 
 ## Consumables
-Food:
+The stats that should be included in your food and utilities are:
 
-- Delicious Rice Ball
-- Or equivalents
-
-Utility:
-
-- Furious Tuning Crystal
-- Superior Sharpening Stone
-- Tin of Fruitcake
-- Or equivalents
+- Healing Power
 
 ## Change history
 23 January 2016 *(Archomeda)*:

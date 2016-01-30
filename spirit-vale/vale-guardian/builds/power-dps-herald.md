@@ -44,17 +44,10 @@ The Herald uses Legendary Dragon Stance and Legendary Demon Stance.
 {% include templates/builds/specialization.html name="Herald" major1="2" major2="2" major3="1" %}
 
 ## Consumables
-Food:
+The stats that should be included in your food and utilities are:
 
-- Bowl of Sweet and Spicy Butternut Squash Soup
-- Plate of Truffle Steak
-- Or equivalents
-
-Utility:
-
-- Bountiful Sharpening Stone
-- Superior Sharpening Stone
-- Tin of Fruitcake
+- Power
+- Precision
 
 ## Change history
 25 January 2016 *(Archomeda)*:

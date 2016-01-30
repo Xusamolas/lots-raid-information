@@ -4,7 +4,7 @@ title: Gorseval
 navigation:
     visible: true
     title: Gorseval
-weight: "001.002"
+weight: "002.002"
 
 raid_wing_name: Spirit Vale
 raid_wing_encounter_name: Gorseval the Multifarious

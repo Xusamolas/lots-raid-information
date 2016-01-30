@@ -52,19 +52,10 @@ Ideally these weapons have Sigils of Malice and Sigils of Bursting.
 {% include templates/builds/specialization.html name="Tools" major1="2" major2="1" major3="2" %}
 
 ## Consumables
-Food:
+The stats that should be included in your food and utilities are:
 
-- Bowl of Garlic Kale Sautee
-- Rare Veggie Pizza
-- Koi Cake
-- Or equivalents
-
-Utility:
-
-- Toxic Focusing Crystal
-- Master Tuning Crystal
-- Tuning Icicle
-- Or equivalents
+- Condition Duration if it does not exceed +100% Condition Duration
+- Condition Damage
 {% endcapture %}
 {% assign variants = variants | push: variant %}
 {% assign variant_titles = variant_titles | push: variant_title %}
@@ -96,19 +87,10 @@ Ideally these weapons have Sigils of Malice and Sigils of Bursting.
 {% include templates/builds/specialization.html name="Inventions" major1="2" major2="3" major3="2" %}
 
 ## Consumables
-Food:
+The stats that should be included in your food and utilities are:
 
-- Bowl of Garlic Kale Sautee
-- Rare Veggie Pizza
-- Koi Cake
-- Or equivalents
-
-Utility:
-
-- Toxic Focusing Crystal
-- Master Tuning Crystal
-- Tuning Icicle
-- Or equivalents
+- Condition Duration if it does not exceed +100% Condition Duration
+- Condition Damage
 {% endcapture %}
 {% assign variants = variants | push: variant %}
 {% assign variant_titles = variant_titles | push: variant_title %}

@@ -4,7 +4,7 @@ title: Sabetha
 navigation:
     visible: true
     title: Sabetha
-weight: "001.003"
+weight: "002.003"
 
 raid_wing_name: Spirit Vale
 raid_wing_encounter_name: Sabetha the Saboteur

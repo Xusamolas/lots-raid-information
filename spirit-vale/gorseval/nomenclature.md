@@ -5,7 +5,7 @@ breadcrumb_title: Nomenclature
 navigation:
     visible: true
     title: Nomenclature
-weight: "001.002.001"
+weight: "002.002.001"
 
 raid_encounter_name: Gorseval the Multifarious
 raid_encounter_page_name: Nomenclature

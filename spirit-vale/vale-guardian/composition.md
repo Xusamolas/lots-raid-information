@@ -5,7 +5,7 @@ breadcrumb_title: Composition
 navigation:
     visible: true
     title: Composition
-weight: "001.001.003"
+weight: "002.001.003"
 
 raid_encounter_name: Vale Guardian
 raid_encounter_page_name: Composition

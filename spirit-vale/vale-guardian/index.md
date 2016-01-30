@@ -4,7 +4,7 @@ title: Vale Guardian
 navigation:
     visible: true
     title: Vale Guardian
-weight: "001.001"
+weight: "002.001"
 
 raid_wing_name: Spirit Vale
 raid_wing_encounter_name: Vale Guardian

@@ -44,22 +44,11 @@ Ideally these weapons have Sigils of Force and Sigils of Concentration.
 {% include templates/builds/specialization.html name="Chronomancer" major1="3" major2="3" major3="3" %}
 
 ## Consumables
-Food:
+The stats that should be included in your food and utilities are:
 
-- Bowl of Nopalitos Saute
-- Loaf of Candy Cactus Cornbread
-- Chocolate Omnomberry Cream
-- Spring Roll
-- Or equivalents
-
-Utility:
-
-- Bountiful Sharpening Stone
-- Superior Sharpening Stone
-- Tin of Fruitcake
-- Master Maintenance Oil
-- Peppermint Oil
-- Or equivalents
+- Boon Duration
+- Toughness if survivability is an issue
+- Power/Precision
 
 ## Change history
 29 January 2016 *(Archomeda)*:

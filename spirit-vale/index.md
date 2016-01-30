@@ -4,7 +4,7 @@ title: Spirit Vale
 navigation:
     visible: true
     title: Spirit Vale
-weight: "001"
+weight: "002"
 
 raid:
     wing_name: Spirit Vale

@@ -32,7 +32,7 @@ Ideally all the armor pieces have Superior Runes of the Chronomancer.
 ### Weapons
 {% include templates/builds/weapon-skills.html profession="Mesmer" mainhand="Sword" offhand="Focus" %}
 {% include templates/builds/weapon-skills.html profession="Mesmer" mainhand="Sword" offhand="Sword" %}
-Ideally these weapons have Sigils of Force and Sigils of Concentration.
+Ideally these weapons have Sigils of Force and Sigils of Accuracy or Platinum Doubloons.
 
 ### Utilities
 {% include templates/builds/utility-skills.html healing="Well of Eternity" utility1="Signet of Inspiration" utility2="Well of Recall" utility3="Well of Action" elite="Time Warp" %}
@@ -43,24 +43,15 @@ Ideally these weapons have Sigils of Force and Sigils of Concentration.
 {% include templates/builds/specialization.html name="Chronomancer" major1="3" major2="3" major3="3" %}
 
 ## Consumables
-Food:
+The stats that should be included in your food and utilities are:
 
-- Bowl of Nopalitos Saute
-- Loaf of Candy Cactus Cornbread
-- Chocolate Omnomberry Cream
-- Spring Roll
-- Or equivalents
-
-Utility:
-
-- Bountiful Sharpening Stone
-- Superior Sharpening Stone
-- Tin of Fruitcake
-- Master Maintenance Oil
-- Peppermint Oil
-- Or equivalents
+- Boon Duration
+- Power/Precision
 
 ## Change history
+30 January 2016 *(Archomeda)*:
+: - Changed Sigil of Concentration to Sigil of Accuracy and Platinum Doubloon
+
 25 January 2016 *(Archomeda)*:
 : - Changed Shield to Focus for an extra pull
 

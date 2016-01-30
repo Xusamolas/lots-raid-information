@@ -5,7 +5,7 @@ breadcrumb_title: Builds
 navigation:
     visible: true
     title: Builds
-weight: "001.001.004"
+weight: "002.001.004"
 
 raid_encounter_name: Vale Guardian
 raid_encounter_page_name: Builds

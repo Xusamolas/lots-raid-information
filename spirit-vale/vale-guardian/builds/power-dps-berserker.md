@@ -48,16 +48,10 @@ Ideally these weapons have Sigils of Force and Sigils of Air.
 {% include templates/builds/specialization.html name="Berserker" major1="1" major2="1" major3="1" %}
 
 ## Consumables
-Food:
+The stats that should be included in your food and utilities are:
 
-- Plate of Truffle Steak
-- Or equivalents
-
-Utility:
-
-- Superior Sharpening Stone
-- Tin of Fruitcake
-- Or equivalents
+- Power
+- Precision
 {% endcapture %}
 {% assign variants = variants | push: variant %}
 {% assign variant_titles = variant_titles | push: variant_title %}
@@ -86,17 +80,10 @@ Ideally these weapons have Sigils of Force and Sigils of Air.
 {% include templates/builds/specialization.html name="Berserker" major1="1" major2="1" major3="1" %}
 
 ## Consumables
-Food:
+The stats that should be included in your food and utilities are:
 
-- Plate of Truffle Steak
-- Or equivalents
-
-Utility:
-
-- Superior Sharpening Stone
-- Tin of Fruitcake
-- Or equivalents
-
+- Power
+- Precision
 {% endcapture %}
 {% assign variants = variants | push: variant %}
 {% assign variant_titles = variant_titles | push: variant_title %}

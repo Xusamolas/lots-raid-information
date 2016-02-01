@@ -18,11 +18,9 @@ build:
 # Vale Guardian: Builds &ndash; Power DPS Berserker
 {% include templates/messages/build-unfinished.html %}
 
-The Berserker will always be in melee range of the Vale Guardian and will share might stacks upon critting with the greatsword.
-You build up your adrenaline, go berserk and use your F1 skill in order to increase your DPS even more.
-When a group of players are down and are close together, use the Battle Standard to AoE resurrect them.
-
-Only during CC phases (and split phases in order to kill the colored guardian), you swap to your mace/mace in order to CC the Vale Guardian.
+The Berserker's role is to stick on the boss and provide the party with Might by using Forceful Greatsword and Phalanx Strength. You primarily stick to using the greatsword unless CC is needed. The build aims to support the raid-wide DPS with said Might as well as the buffs provided by the banners mentioned below.
+Opening up a fight you can use Signet of Fury to instantly fill your adrenaline bar and go berserk. Staying in this mode is your primary damage modifier as you can abuse the low cooldown of Arc Divider to keep Berserker's Power up. Don't neglect using Hundred Blades on cooldown as it is your main damage skill. Whirlwind Attack can be used to dodge the blue circles while not losing out on damage. However in order to maximise personal damage output, it's recommended one stays below 100% endurance to trigger the 10% damage modifier on Stick and Move.
+Only during CC phases (and split phases in order to kill the colored guardian), you swap to your mace/mace in order to CC the Vale Guardian. Additionally going berserk will also activate a taunt which helps drain the breakbars.
 
 During the split phases, the Berserkers split up and go to the **Green Guardian** and the **Blue Guardian**.
 
@@ -52,6 +50,8 @@ The stats that should be included in your food and utilities are:
 
 - Power
 - Precision
+- Ferocity
+- Boon Duration
 {% endcapture %}
 {% assign variants = variants | push: variant %}
 {% assign variant_titles = variant_titles | push: variant_title %}
@@ -84,6 +84,8 @@ The stats that should be included in your food and utilities are:
 
 - Power
 - Precision
+- Ferocity
+- Boon Duration
 {% endcapture %}
 {% assign variants = variants | push: variant %}
 {% assign variant_titles = variant_titles | push: variant_title %}
